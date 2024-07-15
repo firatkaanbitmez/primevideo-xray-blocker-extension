@@ -24,10 +24,13 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 
 ## Sorunlu Chrome ve Edge Uzantılarını Düzeltme
 
-Projenizin bazı durumlarda Chrome ve Edge tarayıcılarında kurulum sırasında sorunlarla karşılaşabileceğini fark ettiyseniz, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
+"This extension is not from any known source, and may have been added without your knowledge."
+"Bu uzantı, bilinen herhangi bir kaynaktan değil ve bilginiz dışında eklenmiş olabilir."     
 
-Proje klasöründe bulunan `fix.bat` dosyasını yönetici olarak çalıştırın. Bu işlem, uzantının kurulumunu desteklemek için gerekli Windows Kayıt Defteri ayarlarını düzeltecektir.
-İşlem tamamlanınca Tarayıcılarının yeniden başlatılacaktır.
+Chrome ve Edge tarayıcılarında kurulum sırasında bu hatalardan biriyle karşılaştıysanız, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
+
+**Proje klasöründe bulunan `fix.bat` dosyasını yönetici olarak çalıştırın. Bu işlem, uzantının kurulumunu desteklemek için gerekli Windows Kayıt Defteri ayarlarını düzeltecektir.
+İşlem tamamlanınca Tarayıcıların yeniden başlatılacaktır.
 
 ## Kullanım
 
