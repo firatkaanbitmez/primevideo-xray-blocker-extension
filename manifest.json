@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "PrimeVideo X-Ray Blocker",
+    "version": "1.0",
+    "description": "Prime Video X-Ray özelliğini devre dışı bırakmak için bir uzantı.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.primevideo.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
