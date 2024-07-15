@@ -39,7 +39,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 // Tüm açık PrimeVideo sekmelerine content scripti enjekte et
 function injectContentScriptToAllTabs() {
-    chrome.tabs.query({ url: "*://www.primevideo.com/*" }, (tabs) => {
+    chrome.tabs.query({ url: "*://*.primevideo.com/*" }, (tabs) => {
         for (const tab of tabs) {
             if (!tab.url.startsWith('chrome://')) {
                 injectContentScript(tab.id);

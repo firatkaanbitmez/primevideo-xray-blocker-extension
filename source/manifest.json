@@ -22,7 +22,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://www.primevideo.com/*"],
+            "matches": ["*://*.primevideo.com/*"],
             "js": ["content.js"]
         }
     ]
