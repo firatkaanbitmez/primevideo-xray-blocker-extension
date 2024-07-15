@@ -18,8 +18,9 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
     git clone https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension.git
     ```
 2. Chrome tarayıcısında `chrome://extensions/` adresine gidin.
-3. Proje içerisindeki `.crx` uzantılı dosyayı sürükleyip bırak yöntemiyle `chrome://extensions/` sekmesine atın.
-4. "Yükle" butonuna tıklayın.
+3. Geliştirici Modunu Aktif edin
+4. Proje içerisindeki `.crx` uzantılı dosyayı sürükleyip bırak yöntemiyle `chrome://extensions/` sekmesine atın.
+5. "Yükle" butonuna tıklayın.
 
 ## Kullanım
 
