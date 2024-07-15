@@ -7,6 +7,7 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 ## Özellikler
 
 - Prime Video'nun X-Ray özelliğini devre dışı bırakma
+- Default olarak devre dışı bırakılmış şekilde gelir (Switch-Enable)
 - Kullanıcı dostu arayüz
 - Kolay kurulum ve kullanım
 
@@ -33,10 +34,19 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 ### X-Ray Özelliği Etkin
 ![X-Ray Enable](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/img_enable.png)
 
-### Dosya Yapısı
+## Tarayıcı Uyumluluğu
+
+Bu uzantı aşağıdaki tarayıcılarda test edilmiştir:
+
+- ![Chrome](https://img.icons8.com/color/48/000000/chrome--v1.png) **Chrome** ✔️
+- ![Edge](https://img.icons8.com/color/48/000000/ms-edge-new.png) **Edge** ✔️
+- ![Opera](https://img.icons8.com/color/48/000000/opera--v1.png) **Opera** ✔️
+
+## Dosya Yapısı
 
 - `background.js`: Uzantının arka plan işlemlerini yöneten dosya.
 - `content.js`: Prime Video sayfasında çalışan ve X-Ray özelliğini devre dışı bırakan betik.
 - `manifest.json`: Uzantının yapılandırma dosyası.
 - `popup.html`: Uzantının kullanıcı arayüzü.
 - `popup.js`: Kullanıcı arayüzü için betik dosyası.
+
