@@ -22,6 +22,13 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 4. Proje içerisindeki `.crx` uzantılı dosyayı sürükleyip bırak yöntemiyle `chrome://extensions/` sekmesine atın.
 5. "Yükle" butonuna tıklayın.
 
+## Sorunlu Chrome ve Edge Uzantılarını Düzeltme
+
+Projenizin bazı durumlarda Chrome ve Edge tarayıcılarında kurulum sırasında sorunlarla karşılaşabileceğini fark ettiyseniz, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
+
+Proje klasöründe bulunan `fix.bat` dosyasını yönetici olarak çalıştırın. Bu işlem, uzantının kurulumunu desteklemek için gerekli Windows Kayıt Defteri ayarlarını düzeltecektir.
+İşlem tamamlanınca Tarayıcılarının yeniden başlatılacaktır.
+
 ## Kullanım
 
 1. Uzantı yüklendikten sonra tarayıcınızın araç çubuğunda `PrimeVideo X-Ray Blocker` simgesini göreceksiniz.
