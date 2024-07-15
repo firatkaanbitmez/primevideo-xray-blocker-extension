@@ -11,6 +11,9 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 - Kullanıcı dostu arayüz
 - Kolay kurulum ve kullanım
 
+![Extension Enable/Disable](https://raw.githubusercontent.com/firatkaanbitmez/primevideo-xray-blocker-extension/main/source/image.png)
+
+
 ## Kurulum
 
 1. Bu projeyi klonlayın veya ZIP dosyası olarak indirin.
