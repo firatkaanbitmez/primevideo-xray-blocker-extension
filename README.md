@@ -31,7 +31,7 @@ EN-"This extension is not from any known source, and may have been added without
 
 TR-"Bu uzantı, bilinen herhangi bir kaynaktan değil ve bilginiz dışında eklenmiş olabilir."     
 
-Chrome ve Edge tarayıcılarında kurulum sırasında bu hatalardan biriyle karşılaştıysanız, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
+Kurulum sırasında bu hatalardan biriyle karşılaştıysanız, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
 
 **Proje klasöründe bulunan `fix.bat` dosyasını yönetici olarak çalıştırın. Bu işlem, uzantının kurulumunu desteklemek için gerekli Windows Kayıt Defteri ayarlarını düzeltecektir.
 İşlem tamamlanınca Tarayıcıların yeniden başlatılacaktır.
@@ -53,7 +53,7 @@ Chrome ve Edge tarayıcılarında kurulum sırasında bu hatalardan biriyle kar�
 Bu uzantı aşağıdaki tarayıcılarda test edilmiştir:
 
 - ![Chrome](https://img.icons8.com/color/48/000000/chrome--v1.png) **Chrome** ✔️
-- ![Edge](https://img.icons8.com/color/48/000000/ms-edge-new.png) **Edge** ✔️
+- ![Edge](https://img.icons8.com/color/48/000000/ms-edge-new.png) **Edge** ✔️(UnStable)
 - ![Opera](https://img.icons8.com/color/48/000000/opera--v1.png) **Opera** ✔️
 
 ## Dosya Yapısı

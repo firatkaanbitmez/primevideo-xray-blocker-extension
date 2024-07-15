@@ -5,6 +5,16 @@ chrome.runtime.onInstalled.addListener(() => {
     });
 });
 
+// Tarayıcı başlatıldığında
+chrome.runtime.onStartup.addListener(() => {
+    injectContentScriptToAllTabs();
+});
+
+// Yeni bir pencere açıldığında
+chrome.windows.onCreated.addListener(() => {
+    injectContentScriptToAllTabs();
+});
+
 // Sayfa güncellendiğinde
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (changeInfo.status === 'complete' && tab.url && tab.url.includes('primevideo.com') && !tab.url.startsWith('chrome://')) {
