@@ -22,10 +22,11 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 4. Proje içerisindeki `.crx` uzantılı dosyayı sürükleyip bırak yöntemiyle `chrome://extensions/` sekmesine atın.
 5. "Yükle" butonuna tıklayın.
 
-## Sorunlu Chrome ve Edge Uzantılarını Düzeltme
+## Chrome ve Edge Tarayıcıların Hata Çözümü
 
-"This extension is not from any known source, and may have been added without your knowledge."
-"Bu uzantı, bilinen herhangi bir kaynaktan değil ve bilginiz dışında eklenmiş olabilir."     
+EN-"This extension is not from any known source, and may have been added without your knowledge."
+
+TR-"Bu uzantı, bilinen herhangi bir kaynaktan değil ve bilginiz dışında eklenmiş olabilir."     
 
 Chrome ve Edge tarayıcılarında kurulum sırasında bu hatalardan biriyle karşılaştıysanız, aşağıdaki adımları izleyerek sorunu çözebilirsiniz.
 
