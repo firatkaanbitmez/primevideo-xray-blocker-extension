@@ -2,7 +2,7 @@
 
 PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dışı bırakmak için geliştirilmiş bir Chrome uzantısıdır. Bu uzantı, Prime Video izlerken ekranı kaplayan X-Ray bilgi pencerelerini devre dışı bırakmanıza olanak tanır.
 
-![Icon](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/icon128.png)
+![Icon](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/source/icon128.png)
 
 ## Özellikler
 
@@ -29,10 +29,10 @@ PrimeVideo X-Ray Blocker, Amazon Prime Video'nun X-Ray özelliğini devre dış�
 3. Araç çubuğundaki uzantı simgesine tıklayarak X-Ray özelliğini etkinleştirin veya devre dışı bırakın.
 
 ### X-Ray Özelliği Devre Dışı
-![X-Ray Disable](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/img_disable.png)
+![X-Ray Disable](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/source/img_disable.png)
 
 ### X-Ray Özelliği Etkin
-![X-Ray Enable](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/img_enable.png)
+![X-Ray Enable](https://github.com/firatkaanbitmez/primevideo-xray-blocker-extension/blob/main/source/img_enable.png)
 
 ## Tarayıcı Uyumluluğu
 
