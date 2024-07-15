@@ -10,7 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
     toggle.addEventListener('change', () => {
         const xRayDisabled = toggle.checked;
         chrome.storage.sync.set({ xRayDisabled: xRayDisabled }, () => {
-            chrome.runtime.sendMessage({ action: 'toggleXRay' });
+            chrome.runtime.sendMessage({ action: 'toggleXRay' }, () => {
+                // Content scriptin enjekte edilmesinden sonra video oynatıcıyı etkileyebilecek işlemleri minimumda tut
+                chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+                    if (tabs[0] && !tabs[0].url.startsWith('chrome://')) {
+                        chrome.scripting.executeScript({
+                            target: { tabId: tabs[0].id },
+                            files: ['content.js']
+                        });
+                    }
+                });
+            });
         });
     });
 });

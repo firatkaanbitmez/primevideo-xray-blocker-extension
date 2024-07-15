@@ -1,38 +1,47 @@
+// Uzantı kurulduğunda veya etkinleştirildiğinde
 chrome.runtime.onInstalled.addListener(() => {
     chrome.storage.sync.set({ xRayDisabled: true }, () => {
-        chrome.tabs.query({ url: "*://www.primevideo.com/*" }, (tabs) => {
-            for (const tab of tabs) {
-                if (!tab.url.startsWith('chrome://')) {
-                    chrome.scripting.executeScript({
-                        target: { tabId: tab.id },
-                        files: ['content.js']
-                    });
-                }
-            }
-        });
+        injectContentScriptToAllTabs();
     });
 });
 
+// Sayfa güncellendiğinde
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (changeInfo.status === 'complete' && tab.url && tab.url.includes('primevideo.com') && !tab.url.startsWith('chrome://')) {
         chrome.storage.sync.get('xRayDisabled', (data) => {
-            chrome.scripting.executeScript({
-                target: { tabId: tabId },
-                files: ['content.js']
-            });
+            if (data.xRayDisabled) {
+                injectContentScript(tabId);
+            }
         });
     }
 });
 
+// Mesaj alındığında
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === 'toggleXRay') {
         chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
             if (tabs[0] && !tabs[0].url.startsWith('chrome://')) {
-                chrome.scripting.executeScript({
-                    target: { tabId: tabs[0].id },
-                    files: ['content.js']
-                });
+                injectContentScript(tabs[0].id);
             }
         });
     }
 });
+
+// Tüm açık PrimeVideo sekmelerine content scripti enjekte et
+function injectContentScriptToAllTabs() {
+    chrome.tabs.query({ url: "*://www.primevideo.com/*" }, (tabs) => {
+        for (const tab of tabs) {
+            if (!tab.url.startsWith('chrome://')) {
+                injectContentScript(tab.id);
+            }
+        }
+    });
+}
+
+// Belirli bir sekmeye content scripti enjekte et
+function injectContentScript(tabId) {
+    chrome.scripting.executeScript({
+        target: { tabId: tabId },
+        files: ['content.js']
+    });
+}
