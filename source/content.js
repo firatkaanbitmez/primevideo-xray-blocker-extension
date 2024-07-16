@@ -1,6 +1,6 @@
 function disableXRay() {
     const observer = new MutationObserver(() => {
-        const xrayElements = document.querySelectorAll('.xrayQuickView, .widgetGroupView, .quickViewContainer, .f1hoalfx, .collapsibleXrayVodHeader, .xrayVodHeaderTitle, .xrayVodImdbLogo, .xrayQuickViewList, .xrayQuickViewListItem, .portraitImage, .quickViewImage, .imageView, .imageSurface, .textContainer, .primaryText, .supplementalText');
+        const xrayElements = document.querySelectorAll('.xrayQuickView');
         xrayElements.forEach((xrayElement) => {
             if (xrayElement) {
                 xrayElement.style.display = 'none';
@@ -10,7 +10,7 @@ function disableXRay() {
 
     observer.observe(document.body, { childList: true, subtree: true });
 
-    const xrayElements = document.querySelectorAll('.xrayQuickView, .widgetGroupView, .quickViewContainer, .f1hoalfx, .collapsibleXrayVodHeader, .xrayVodHeaderTitle, .xrayVodImdbLogo, .xrayQuickViewList, .xrayQuickViewListItem, .portraitImage, .quickViewImage, .imageView, .imageSurface, .textContainer, .primaryText, .supplementalText');
+    const xrayElements = document.querySelectorAll('.xrayQuickView');
     xrayElements.forEach((xrayElement) => {
         if (xrayElement) {
             xrayElement.style.display = 'none';
@@ -20,7 +20,7 @@ function disableXRay() {
 
 function enableXRay() {
     const observer = new MutationObserver(() => {
-        const xrayElements = document.querySelectorAll('.xrayQuickView, .widgetGroupView, .quickViewContainer, .f1hoalfx, .collapsibleXrayVodHeader, .xrayVodHeaderTitle, .xrayVodImdbLogo, .xrayQuickViewList, .xrayQuickViewListItem, .portraitImage, .quickViewImage, .imageView, .imageSurface, .textContainer, .primaryText, .supplementalText');
+        const xrayElements = document.querySelectorAll('.xrayQuickView');
         xrayElements.forEach((xrayElement) => {
             if (xrayElement) {
                 xrayElement.style.display = '';
@@ -30,7 +30,7 @@ function enableXRay() {
 
     observer.observe(document.body, { childList: true, subtree: true });
 
-    const xrayElements = document.querySelectorAll('.xrayQuickView, .widgetGroupView, .quickViewContainer, .f1hoalfx, .collapsibleXrayVodHeader, .xrayVodHeaderTitle, .xrayVodImdbLogo, .xrayQuickViewList, .xrayQuickViewListItem, .portraitImage, .quickViewImage, .imageView, .imageSurface, .textContainer, .primaryText, .supplementalText');
+    const xrayElements = document.querySelectorAll('.xrayQuickView');
     xrayElements.forEach((xrayElement) => {
         if (xrayElement) {
             xrayElement.style.display = '';
