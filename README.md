@@ -1,6 +1,6 @@
 # PrimeVideo X-Ray Blocker
 
-[**Download from the Chrome Web Store**](https://chromewebstore.google.com/detail/acijakofobffmjdhkdcijbmcledbeikg?hl=tr&authuser=0)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-PrimeVideo%20X--Ray%20Blocker-brightgreen?style=for-the-badge&logo=google-chrome)](https://chromewebstore.google.com/detail/acijakofobffmjdhkdcijbmcledbeikg?hl=tr&authuser=0)
 
 PrimeVideo X-Ray Blocker is a lightweight Chrome extension that disables Amazon Prime Video's X-Ray feature. With this extension, you can enjoy uninterrupted viewing by blocking those often intrusive X-Ray info pop-ups while watching your favorite shows and movies on Prime Video.
 
@@ -15,7 +15,13 @@ PrimeVideo X-Ray Blocker is a lightweight Chrome extension that disables Amazon 
 
 ![Extension Enable/Disable](https://raw.githubusercontent.com/firatkaanbitmez/primevideo-xray-blocker-extension/main/source/image.png)
 
-## Installation
+## Download and Installation
+
+You can directly download the extension from the Chrome Web Store by clicking the button below:
+
+[![Get it on Chrome Web Store](https://img.shields.io/badge/Get%20it%20on-Chrome%20Web%20Store-blue?style=for-the-badge&logo=google-chrome)](https://chromewebstore.google.com/detail/acijakofobffmjdhkdcijbmcledbeikg?hl=tr&authuser=0)
+
+Alternatively, you can install it manually by following these steps:
 
 1. Clone the repository or download it as a ZIP file:
     ```sh
