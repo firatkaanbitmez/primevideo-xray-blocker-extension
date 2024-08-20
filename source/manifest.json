@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "PrimeVideo X-Ray Blocker",
-    "version": "1.0",
-    "description": "Prime Video X-Ray özelliğini devre dışı bırakmak için bir uzantı.",
+    "version": "1.0.1",
+    "description": "A Chrome extension to disable the X-Ray feature on Prime Video.",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
